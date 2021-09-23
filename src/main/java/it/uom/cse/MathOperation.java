@@ -13,15 +13,20 @@ public class MathOperation {
         return operand1 - operand2;
     }
 
-    public static int factorial(int n){
+    public static int factorial(int n) {
         int factorial = 1;
-        for(int i=n; i>0; i--){
+        for (int i = n; i > 0; i--) {
             factorial *= i;
         }
         return factorial;
-    public static int fib(int n){
-        if (n <= 1){return n;}
-        else{return fib(n - 1) + fib(n - 2);}
+    }
+
+    public static int fib(int n) {
+        if (n <= 1) {
+            return n;
+        } else {
+            return fib(n - 1) + fib(n - 2);
+        }
     }
 
 
