@@ -13,6 +13,7 @@ public class MathOperation {
         return operand1 - operand2;
     }
 
+//    this part is added by Vinojith
     public static int factorial(int n) {
         int factorial = 1;
         for (int i = n; i > 0; i--) {
@@ -21,6 +22,7 @@ public class MathOperation {
         return factorial;
     }
 
+//    this part is added by Nipun bro
     public static int fib(int n) {
         if (n <= 1) {
             return n;
@@ -29,7 +31,7 @@ public class MathOperation {
         }
     }
 
-
+//    this part is added by Ayesh bro
     public static int sumOfIntegers(int n) {
         int sum = 0;
         for (int i = 0; i <= n; i++) {
